@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    background-color: azure;
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
