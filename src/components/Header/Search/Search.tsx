@@ -11,6 +11,7 @@ const Search = () => {
     const search : string = useSelector(state => state.searchSlice.search);
     const dispatch = useDispatch();
 
+//     an example of optimization using hook useCallback
     const updateSearch = React.useCallback(
         debounce( (str : string) => {
             dispatch(setSearch(str));
