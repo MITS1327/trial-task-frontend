@@ -31,6 +31,7 @@ const NotesList = () => {
         <Grid container spacing={4}>
             {
                 loaded ?
+//                     if all items was already loaded create real array 
                 notes
                     .map( (obj, index) =>
                         <Grid item xs={6}>
@@ -42,7 +43,8 @@ const NotesList = () => {
                                 key={index}
                             />
                         </Grid>
-                    ) : [...new Array(6)].map( (_, index) => (<Grid item xs={6}><Skeleton key={index} /></Grid>))
+//                          else , create array with skeleton items
+                    )  : [...new Array(6)].map( (_, index) => (<Grid item xs={6}><Skeleton key={index} /></Grid>))
             }
         </Grid>
 
