@@ -4,6 +4,7 @@ import NotesList from "./AddForm/NotesList/NotesList";
 
 const Main = () => {
     return (
+//         use empty tag instead of strict mode to avoid unnecessary rerenders
         <>
             <AddForm />
             <NotesList />
