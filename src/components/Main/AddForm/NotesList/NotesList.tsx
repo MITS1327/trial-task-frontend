@@ -14,6 +14,7 @@ const NotesList = () => {
     // @ts-ignore
     const search : string = useSelector(state => state.searchSlice.search);
 
+//     I use useEffect so that the code is executed only when I need it
     React.useEffect( () => {
         setLoaded(false);
         axios
