@@ -14,6 +14,7 @@ const submitSlice = createSlice({
     }
 });
 
-
+// export function to use in components
 export const { setClicked } = submitSlice.actions;
+// export reducer to instance in store
 export default submitSlice.reducer;
