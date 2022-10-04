@@ -39,6 +39,7 @@ const NotesList = () => {
                                 title={obj.title}
                                 // @ts-ignore
                                 text={obj.text}
+                                key={index}
                             />
                         </Grid>
                     ) : [...new Array(6)].map( (_, index) => (<Grid item xs={6}><Skeleton key={index} /></Grid>))
