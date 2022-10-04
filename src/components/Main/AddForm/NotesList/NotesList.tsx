@@ -28,24 +28,6 @@ const NotesList = () => {
     // @ts-ignore
     // @ts-ignore
     return (
-        // <Grid container spacing={6}>
-        //     {
-        //         loaded ?
-        //         notes
-        //             .map( (obj, index) =>
-        //                 <Grid xs={5}>
-        //                     <Note
-        //                         // @ts-ignore
-        //                         title={obj.title}
-        //                         // @ts-ignore
-        //                         text={obj.text}
-        //                     />
-        //                 </Grid>
-        //             ) :
-        //         <Skeleton />
-        //     }
-        // </Grid>
-
         <Grid container spacing={4}>
             {
                 loaded ?
