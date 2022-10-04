@@ -14,5 +14,7 @@ const searchSlice = createSlice({
     }
 });
 
+// export function to use in components
 export const { setSearch } = searchSlice.actions;
+// export reducer to instance in store
 export default searchSlice.reducer;
