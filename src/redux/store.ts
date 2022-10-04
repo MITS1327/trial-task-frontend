@@ -4,6 +4,7 @@ import searchSlice from "./slices/searchSlice";
 
 export const store = configureStore({
     reducer: {
+//         instanse reducers
         submitSlice,
         searchSlice
     },
